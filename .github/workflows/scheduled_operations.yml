@@ -8,15 +8,17 @@ on:
 
   schedule:
     # زمان‌بندی‌ها بر اساس ساعت UTC
-    - cron: '0 1 * * *'  # 01:00 UTC
-    - cron: '0 2 * * *'  # 02:00 UTC
-    - cron: '0 3 * * *'  # 03:00 UTC
-    - cron: '0 6 * * *'  # 06:00 UTC
-    - cron: '0 9 * * *'  # 09:00 UTC
-    - cron: '0 16 * * *' # 16:00 UTC
-    - cron: '0 18 * * *' # 18:00 UTC
-    - cron: '0 20 * * *' # 20:00 UTC
-    - cron: '0 23 * * *' # 23:00 UTC
+    - cron: '10 1 * * *'  # 01:10 UTC
+    - cron: '20 2 * * *'  # 02:20 UTC
+    - cron: '30 3 * * *'  # 03:30 UTC
+    - cron: '40 6 * * *'  # 06:40 UTC
+    - cron: '50 9 * * *'  # 09:50 UTC
+    - cron: '22 12 * * *' # 12:22 UTC
+    - cron: '45 14 * * *' # 14:45 UTC
+    - cron: '19 16 * * *' # 16:19 UTC
+    - cron: '29 18 * * *' # 18:29 UTC
+    - cron: '39 20 * * *' # 20:39 UTC
+    - cron: '49 23 * * *' # 23:49 UTC
 
 jobs:
   run-scheduled-task:
