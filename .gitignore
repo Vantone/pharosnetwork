@@ -1,0 +1,10 @@
+# .gitignore
+
+# Dependencies
+/node_modules
+
+# Lockfiles
+package-lock.json
+
+# 环境变量文件
+.env
